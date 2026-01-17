@@ -1,12 +1,12 @@
 import React from "react";
 import {createRoot} from "react-dom/client";
-import "./index.css";
+import "./styles.css";
 
 const App = () => {
     return (
         <div>
-            <h1>Welcome to My Web Page</h1>
-            <p>This is a brief introduction about myself.</p>
+            <h1>Welcome to My React App</h1>
+            <p>This is a simple react app started from scratch.</p>
         </div>
     );
 };
